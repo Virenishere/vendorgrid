@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 import VendorListSkeleton from '@/components/VendorListSkeleton';
 
 const getVendors = async () => {
-  const res = await fetch("http://localhost:3000/api/vendors", {
+  const res = await fetch("https://vendorgrid.vercel.app/api/vendors", {
     cache: "no-store",
   });
 
